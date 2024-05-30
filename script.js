@@ -19,7 +19,7 @@ const interval = setInterval(() => {
 }, loadtime);
 
 window.addEventListener("load", () => {
-  console.log("Loaded");
+  // When the site is loaded, automatically complete the bar
   loaded = true;
 
   clearInterval(interval);
