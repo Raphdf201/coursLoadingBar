@@ -1,13 +1,13 @@
 @font-face {
-  font-family: Jetbrains Mono;
+  font-family: Jetbrains Mono; /* You can add your own font */
   src: url(https://cdn.jsdelivr.net/gh/Raphdf201/Raphdf201.github.io@main/assets/fonts/JetbrainsMono/JetBrainsMono-Regular.ttf);
 }
 
 * {
-  font-family: Jetbrains Mono;
+  font-family: Jetbrains Mono; /* This is style for the whole website, here i made it like darl mode */
   color: white;
   background-color: #222;
-  margin: 0;
+  /*margin: 0; - If you just put an image into the website, enable this back - it removes the margin on the sides*/
 }
 
 body {
@@ -24,11 +24,11 @@ body {
 .loading-container {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%; /* Centers the bar */
   transform: translate(-50%, -70%);
   font-size: 7vw;
-  /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
-    5px 5px 70px rgba(255, 255, 255, 0.5);*/
+  /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), text shadow, was not working for me in chrome
+    5px 5px 70px rgba(255, 255, 255, 0.5); - Uncomment to enable if you want */
 }
 
 .number {
@@ -53,5 +53,5 @@ body {
 header {
   min-height: 100vh;
   overflow: hidden;
-  background: url(./assets/bg.webp) center/cover;
+  /*background: url(./assets/bg.webp) center/cover; - Uncomment this to add an image/background to the site*/
 }
